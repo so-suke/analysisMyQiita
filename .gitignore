@@ -3,3 +3,4 @@ yarn.lock
 node_modules
 src/appsscript.json
 .clasp.json
+memo.txt

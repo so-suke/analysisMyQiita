@@ -16,7 +16,7 @@ function myFunction() {
   let res = UrlFetchApp.fetch(url, option)
   let list = JSON.parse(res.getContentText())
   
-  // 取得したアイテムをループして、view, like, stockを取得
+  // 取得したアイテムをループして、viewを取得
   for (let i = 0; i < list.length; i++) {
     const item = list[i]
     const item_id = item['id']
